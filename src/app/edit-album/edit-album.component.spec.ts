@@ -1,21 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import {} from 'jasmine';
 
-import { MarketplaceComponent } from './marketplace.component';
+import { EditAlbumComponent } from './edit-album.component';
 
-describe('MarketplaceComponent', () => {
-  let component: MarketplaceComponent;
-  let fixture: ComponentFixture<MarketplaceComponent>;
+describe('EditAlbumComponent', () => {
+  let component: EditAlbumComponent;
+  let fixture: ComponentFixture<EditAlbumComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MarketplaceComponent ]
+      declarations: [ EditAlbumComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MarketplaceComponent);
+    fixture = TestBed.createComponent(EditAlbumComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

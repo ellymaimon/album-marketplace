@@ -6,3 +6,11 @@
   background-color: #f5f5f5;
   padding: 15px;
 }
+
+.card { 
+  margin-bottom: 20px;
+}
+
+body {
+  margin-bottom: 100px;
+}

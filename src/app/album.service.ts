@@ -31,4 +31,9 @@ export class AlbumService {
     });
   }
 
+  deleteAlbum(localAlbumToDelete) {
+    var albumEntryInFirebase = this.getAlbumById(localAlbumToDelete.$key);
+    albumEntryInFirebase.remove();
+  }
+
 }
